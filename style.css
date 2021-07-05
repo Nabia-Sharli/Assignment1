@@ -1,3 +1,4 @@
+/*header area opening*/
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -15,17 +16,44 @@ section{
     padding-top: 40px;
 }
 .half-width img{
-    width: 80%;
+    width: 85%;
 
 }
 .header-area{
     background-image: url(personal-website/header-bg.png);
+    background-position: cover;
+    background-repeat: no-repeat;
 }
 .button{
     text-decoration: none;
-    background: #FF416C;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-padding: 10px 40px;
-border-radius: 5px;
+    text-transform: uppercase;
+    background-image: linear-gradient(#FF416C,#FF4B2B);
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10%;
 }
+.biography-area{
+    background-image: url(personal-website/biography-bg.png);
+    background-repeat: no-repeat;
+}
+/*header are closing*/
+.bio{
+    display: block;
+    margin-block-start: 0.80em;
+    margin-block-end: 0.80em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+.bio{
+  margin-top: 5%;
+    margin-right: 8%;
+}
+.bio h2{
+    font-size: 50px;
+}
+
+
+
